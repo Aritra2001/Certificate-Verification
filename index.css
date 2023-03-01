@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     position: relative;
 width: 1440px;
@@ -271,10 +272,10 @@ background: #09030D;
 }
 .icon {
     position: absolute;
-    width: 45px;
-    height: 41px;
     left: 294px;
     top: 264px;
+    width: 45px;
+    height: 41px;
 }
 
 .cert {
@@ -374,10 +375,12 @@ select {
 
 .pic-1 {
     position: absolute;
-    left: 30.19%;
-    right: 64.61%;
-    top: 63.11%;
-    bottom: 34.55%;
+left: 30.19%;
+right: 64.61%;
+top: 63.11%;
+bottom: 34.55%;
+width: 19px;
+height: 19px;
 
 }
 .pic-2 {
@@ -403,4 +406,5 @@ select {
     
 }
 }
+   
     
