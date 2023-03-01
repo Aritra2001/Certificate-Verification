@@ -197,3 +197,209 @@ height: 24px;
 left: 781px;
 top: 732px;
 }
+@media only screen and (max-width: 800px){
+    
+body {
+
+    position: relative;
+    width: 360px;
+    height: 800px;
+    
+font-family: 'Montserrat', sans-serif;
+
+
+background: #09030D;
+}
+.bg {
+    position: absolute;
+    width: 505px;
+    height: 1117px;
+    left: -115px;
+    top: -317px;
+    
+}
+.logo {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    left: 40px;
+    top: 10px;
+}
+.txt {
+    position: absolute;
+    width: 266.33px;
+    height: 72.11px;
+    left: 39px;
+    top: 248px;
+    
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 99.9%;
+    /* or 36px */
+    
+    text-align: center;
+    
+    background: linear-gradient(90.28deg, #0057FF 0.2%, #B10DFF 110.87%, rgba(173, 0, 255, 0) 110.87%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+.one {
+    position: absolute;
+    width: 266px;
+    height: 32px;
+    left: 39px;
+    top: 284px;
+    
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 99.9%;
+    /* or 36px */
+    
+    text-align: center;
+    
+    
+    
+    text-align: center;
+    -webkit-text-stroke: 1.5px #2b00ff;
+    
+}
+.icon {
+    position: absolute;
+    width: 45px;
+    height: 41px;
+    left: 294px;
+    top: 264px;
+}
+
+.cert {
+   
+box-sizing: border-box;
+
+position: absolute;
+width: 257.91px;
+height: 20.53px;
+left: 45.36px;
+top: 369.59px;
+
+border: 1px solid #0653FE;
+border-radius: 18px;
+
+}
+
+button {
+
+    position: absolute;
+    width: 72.11px;
+    height: 23.16px;
+    left: 135.83px;
+    top: 412.74px;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    background: linear-gradient(89.82deg, #0954FF 0.07%, #931AFF 109.22%);
+    border-radius: 29px;
+    border: #0954FF;
+}
+input {
+    padding-left: 10px;
+    font-weight: 400;
+font-size: 10px;
+line-height: 99.9%;
+/* or 10px */
+    color: #ffffff;
+    text-transform: uppercase;
+}
+::-webkit-input-placeholder {
+    color: #4A4747;
+    text-transform: none;
+}
+.drops {
+    box-sizing: border-box;
+    padding-left: 5px;
+    position: absolute;
+    width: 257.91px;
+    height: 20.53px;
+    left: 45.36px;
+    top: 338px;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 99.9%;
+    border: 1px solid #0653FE;
+    border-radius: 18px;
+    
+
+}
+option {
+    
+   
+background-color: #09030D;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 99.9%;
+/* or 10px */
+
+color: #ffffff;
+    
+}
+select {
+    background-color: #09030D;
+}
+.share {
+    position: absolute;
+    width: 175px;
+    height: 16.41px;
+    left: 86px;
+    top: 465px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 99.9%;
+    /* or 16px */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.pic-1 {
+    position: absolute;
+    left: 30.19%;
+    right: 64.61%;
+    top: 63.11%;
+    bottom: 34.55%;
+
+}
+.pic-2 {
+    position: absolute;
+    width: 18.75px;
+    height: 18.75px;
+    left: 146.14px;
+    top: 504.85px;
+}
+.pic-3 {
+    position: absolute;
+    width: 18.75px;
+    height: 18.75px;
+    left: 183.63px;
+    top: 504.85px;
+}
+.pic-4 {
+    position: absolute;
+    width: 18.75px;
+    height: 18.75px;
+    left: 221.12px;
+    top: 504.85px;
+    
+}
+}
