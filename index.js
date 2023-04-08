@@ -60,6 +60,22 @@ function validate() {
         window.alert("❌ Certificate id doesn't exit")
         
     }
+    
+    //Rocket Propulsion
+     if(len === 10 && ms === 'RPM')
+    {
+        var no_rpm = Cert.substring(8, 10)
+        var no = parseInt(no_rpm)
+        
+        if(no >= 01 && no <= 16)
+        {
+            window.alert('✅ Successful verification!')
+        }
+        else
+        window.alert("❌ Certificate id doesn't exit")
+        
+        
+    }
 
     //length issues
     if(len <= 9 )
@@ -69,7 +85,7 @@ function validate() {
     window.alert("⚠️ Cerrificate id is too long")
 
     //false calls
-    if(len === 11 && (ms=== 'CMC' || ms === 'ADM'))
+    if(len === 11 && (ms=== 'CMC' || ms === 'ADM' || ms === 'RPM'))
     window.alert("Wrong id ")
 
     if(len === 10 && ms === 'SMC')
