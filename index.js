@@ -76,6 +76,12 @@ function validate() {
         
         
     }
+    
+    //Hardcoded
+    if(Cert === 'UIGBGF202301' || Cert === 'UIGBGF202302')
+    {
+         window.alert('✅ Successful verification!')
+    }
 
     //length issues
     if(len <= 9 )
