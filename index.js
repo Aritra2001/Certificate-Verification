@@ -87,7 +87,7 @@ function validate() {
     if(len <= 9 )
     window.alert("⚠️ Cerificate id too short")
 
-    if(len > 11 )
+    if(len > 11 && ms !== 'UIG')
     window.alert("⚠️ Cerrificate id is too long")
 
     //false calls
