@@ -77,6 +77,21 @@ function validate() {
         
     }
     
+    //CFD masterclass
+         if(len === 10 && ms === 'CFD')
+    {
+        var no_cfd = Cert.substring(9, 11)
+        var no = parseInt(no_cfd)
+        
+        if(no >= 01 && no <= 27)
+        {
+            window.alert('✅ Successful verification!')
+        }
+        else
+        window.alert("❌ Certificate id doesn't exit")
+        
+        
+    }
     //Hardcoded
     if(Cert === 'UIGBGF202301' || Cert === 'UIGBGF202302')
     {
