@@ -78,7 +78,7 @@ function validate() {
     }
     
     //CFD masterclass
-         if(len === 10 && ms === 'CFD')
+         if(len === 11 && ms === 'CFD')
     {
         var no_cfd = Cert.substring(9, 11)
         var no = parseInt(no_cfd)
