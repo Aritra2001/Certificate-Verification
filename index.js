@@ -92,6 +92,23 @@ function validate() {
         
         
     }
+    
+    //Rocketry Workshop
+     if(len === 10 && ms === 'RWS')
+    {
+        var no_rws = Cert.substring(8, 10)
+        var no = parseInt(no_rws)
+        
+        if(no >= 01 && no <= 11)
+        {
+            window.alert('✅ Successful verification!')
+        }
+        else
+        window.alert("❌ Certificate id doesn't exit")
+        
+        
+    }
+
     //Hardcoded
     if(Cert === 'UIGBGF202301' || Cert === 'UIGBGF202302')
     {
