@@ -36,7 +36,7 @@ function validate() {
         var no_amc = Cert.substring(8, 10)
         var no = parseInt(no_amc)
         
-        if(no >= 02 && no <= 28)
+        if(no >= 01 && no <= 12)
         {
             window.alert('✅ Successful verification!')
         }
