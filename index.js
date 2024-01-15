@@ -46,6 +46,22 @@ function validate() {
         
     }
 
+        //Research Paper Writting workshop
+    if(len === 10 && ms === 'RPW')
+    {
+        var no_amc = Cert.substring(8, 10)
+        var no = parseInt(no_amc)
+        
+        if(no >= 01 && no <= 8)
+        {
+            window.alert('✅ Successful verification!')
+        }
+        else
+        window.alert("❌ Certificate id doesn't exit")
+        
+        
+    }
+
     //Satellite Masterclass
     if(len === 11 && ms === 'SMC')
     {
